@@ -3,15 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="60dp"
+    android:layout_height="50dp"
     app:contentInsetStart="0dp"
     android:background="@android:color/holo_blue_dark">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#4f4f4f">
-
+        android:background="@color/brown">
 
         <ImageView
             android:id="@+id/back_btn"
@@ -24,6 +23,8 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             app:srcCompat="@drawable/back" />
+
+
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
@@ -37,19 +38,9 @@
             android:gravity="center"
             android:textStyle="bold"
             android:textColor="@android:color/white"
-            android:textSize="20sp"
-            android:text="환율계산기" />
+            android:textSize="18sp"
+            android:text="환율 알림설정" />
 
-        <ImageButton
-            android:id="@+id/ring_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="3dp"
-            android:background="@android:color/transparent"
-            app:srcCompat="@drawable/notifications" />
 
     </RelativeLayout>
 </androidx.appcompat.widget.Toolbar>

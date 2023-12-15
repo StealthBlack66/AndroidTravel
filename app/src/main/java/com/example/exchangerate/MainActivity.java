@@ -2,12 +2,14 @@ package com.example.exchangerate;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import java.util.concurrent.ExecutionException;
@@ -18,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     public TextView tv_to;
     private Button btn_exchange;
     private String[] fromto = new String[2];
-
     private TextView tv_test;
 
     double currencyRate = 0.0;
@@ -32,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
         Spinner spinner2 = findViewById(R.id.spinner2);
+        ImageButton ring_btn = findViewById(R.id.ring_btn);
 
         et_from = findViewById(R.id.et_from);
         tv_to = findViewById(R.id.tv_to);
-
         btn_exchange = findViewById(R.id.btn_exchange);
 
 
@@ -90,5 +91,16 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        ring_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navigateToExchangeRateRing();
+            }
+        });
+    }
+    private void navigateToExchangeRateRing() {
+        Intent intent = new Intent(this, ExchangeRateRing.class);
+        startActivity(intent);
     }
 }

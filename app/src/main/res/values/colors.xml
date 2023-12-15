@@ -10,4 +10,10 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="yellow">#FDAE39</color>
+    <color name="brown_black">#151515</color>
+    <color name="pressed_color">#80EAB3</color>
+    <color name="default_color">#FFFFFFFF</color>
+    <color name="light_grey">#D5D5D5</color>
+    <color name="blue">#4875FF</color>
+    <color name="light_pale_grey">#ECECEC</color>
 </resources>
