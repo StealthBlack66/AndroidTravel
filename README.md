@@ -9,19 +9,20 @@ I use stacks for account generation, searching and saving by Google Map, exchang
 
 
 #### 1. WireFrame
-![wireframe]()
+![wireframe](https://github.com/StealthBlack66/AndroidTravel/assets/130235113/aaf9ccef-cc2c-4c76-9e8f-ce4f8727bdc8)
+
 
 #### 2. Usecase Diagram
-![usecaseDiagram]()
+![usecaseDiagram](https://github.com/StealthBlack66/AndroidTravel/assets/130235113/ba59c4d4-3380-470a-962b-45017f824d65)
 
 #### 3. Gantt Chart
-![progectSchedule]()
+![projectSchedule](https://github.com/StealthBlack66/AndroidTravel/assets/130235113/5779e073-569f-473d-85b1-ba87baed6064)
 
 #### 4. All of Screen
-![screen]()
+![screen](https://github.com/StealthBlack66/AndroidTravel/assets/130235113/5bf8c706-7848-471f-bc16-a0531b63c9e6)
 
 #### 5. Functon ListUp
-![functionListup]()
+![functionListup](https://github.com/StealthBlack66/AndroidTravel/assets/130235113/75bae4dc-fdb5-4275-97b6-84fd7b9a7832)
 
 #### 6. Running Screen
-![runningScreen]()
+Click[runningScreen](https://www.youtube.com/watch?si=xK0iCMqVWfYI1hQH&v=uluZ7uPzGNg&feature=youtu.be)
